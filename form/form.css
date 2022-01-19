@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    font-family: sans-serif;
+    padding: 50px 0px;
+}
+form{
+    display: flexbox;
+    background-color: white;
+    
+    width: 20%;
+    margin-left: 40%;
+
+}
+input[type=text], textarea {
+    border:none;
+    width: 100%;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    border-bottom:0.5px solid gray;
+  }
+
+
+  label{
+      width: 20%;
+      text-align: left;     
+  }
+
+input[type=submit] {
+    background: linear-gradient(90deg, rgb(216, 10, 89) 0%, rgb(196, 62, 62) 0%, rgb(240, 104, 41) 100%);
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 25px;
+    margin: 10px 120px;
+    
+  }
