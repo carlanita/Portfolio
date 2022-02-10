@@ -10,10 +10,10 @@ body {
     height: 100vh;
     display: flex;
     background-image: url(globalaudit.jpg);
+    justify-content: center;
+    align-items: center;
     background-repeat: repeat;
     background-size: cover;
-    justify-content: center;
-   align-items: center;
 }
 input[type="button"] {
     background-color: #38D2C4;
