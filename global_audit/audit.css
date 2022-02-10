@@ -57,4 +57,5 @@ p {
     width: 20%;
     animation-name: pulse;
     animation-duration: 1s;
+    padding-bottom: 10px;
 }
