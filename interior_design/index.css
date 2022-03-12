@@ -8,6 +8,7 @@ html {
 }
 body {
     font-family: sans-serif;
+    --daisy-color:#cfa398;
 }
 ul {
     background-color: #cfa398de;
@@ -58,7 +59,7 @@ header a{
     text-align: left;
 }
 article h1 {
-    color:#cfa398;
+    color:var(--daisy-color);
     margin-bottom: 1em;
     margin-top: 2em;
     font-size: 2em;
